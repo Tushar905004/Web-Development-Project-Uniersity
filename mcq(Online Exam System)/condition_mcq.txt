@@ -1,0 +1,9 @@
+
+        $define=1;
+        for($i=0;$i<=$define;$i++){
+        echo $this->input->post('answer1',$data,TRUE);
+        $length=strlen($s[0]);
+        $slash_location=strpos($s[$i],'/','1')+1;
+        $question=substr($s[$i],$slash_location,$length);
+        $question_length=strlen($question)+1;
+        $quesion_id= substr_replace($s, '',2,$question_length);

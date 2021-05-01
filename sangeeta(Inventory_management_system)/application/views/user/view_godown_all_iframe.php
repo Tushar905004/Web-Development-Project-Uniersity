@@ -1,0 +1,1 @@
+<iframe src="<?php echo base_url(); ?>user/retrive_all_data_for_view_godown_all/<?php echo $category_id; ?>" width="99%" style="border:0px; height: auto; min-height: 500px;  overflow: auto;"></iframe>
